@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order2</title>
+  <link rel="stylesheet" href="css/order.css">
+
+
+</head>
+<body>
+<div class="container">
+  <h1>Форма заказа</h1>
+  <form class="form cf">
+    <section class="payment-plan cf">
+      <h2>Выбирите мастера:</h2>
+      <input type="radio" name="radio2" id="monthly" value="monthly" onclick="location.href='/order'"><label class="monthly-label four col" for="monthly">Мастер1</label>
+      <input type="radio" name="radio2" id="yearly" value="yearly"  checked><label class="yearly-label four col" for="yearly">Мастер2</label>
+    </section>
+    <section class="payment-type cf">
+      <h2>Выбирите день:</h2>
+      <input type="radio" name="radio3" id="credit" value="credit"><label class="credit-label four col" for="credit">Credit Card</label>
+      <input type="radio" name="radio3" id="debit" value="debit"><label class="debit-label four col" for="debit">Debit Card</label>
+      <input type="radio" name="radio3" id="paypal" value="paypal" checked><label class="paypal-label four col" for="paypal">Paypal</label>
+    </section>
+    <section class="payment-type cf">
+      <h2>Выбирите время:</h2>
+      <input type="radio" name="radio3" id="credit1" value="credit1"><label class="credit-label four col" for="credit">Credit Card</label>
+      <input type="radio" name="radio3" id="debit1" value="debit1"><label class="debit-label four col" for="debit">Debit Card</label>
+      <input type="radio" name="radio3" id="paypal1" value="paypal1" checked><label class="paypal-label four col" for="paypal">Paypal</label>
+      <input type="radio" name="radio3" id="credit2" value="credit2"><label class="credit-label four col" for="credit">Credit Card</label>
+      <input type="radio" name="radio3" id="debit2" value="debit2"><label class="debit-label four col" for="debit">Debit Card</label>
+      <input type="radio" name="radio3" id="paypal2" value="paypal2" checked><label class="paypal-label four col" for="paypal">Paypal</label>
+    </section>
+    <section class="plan cf">
+      <h2>Выберите тип услуги:</h2>
+      <input type="radio" name="radio1" id="free" value="free"><label class="free-label four col" for="free">Машинка(400)</label>
+      <input type="radio" name="radio1" id="basic" value="basic" checked><label class="basic-label four col" for="basic">Ножницы(300)</label>
+      <input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label four col" for="premium">Все вместе(700)</label>
+    </section>
+    <input class="submit" type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
